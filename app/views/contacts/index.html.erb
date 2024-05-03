@@ -1,0 +1,5 @@
+<h1>Contact book</h1>
+<% contacts = Contact.all %>
+<%for contact in contacts %>
+<p>contact: <%= contact["first_name"] %></p>
+<%end%>
